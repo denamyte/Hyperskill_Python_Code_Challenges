@@ -6,6 +6,9 @@ files:
     pi = 3.141592653589793
     # put your python code here
   learner_created: false
+- name: string_methods_test.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/6900#comment
 status: Solved
 feedback:
