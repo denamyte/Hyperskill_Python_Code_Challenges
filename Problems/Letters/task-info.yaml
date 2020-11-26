@@ -4,9 +4,6 @@ files:
   visible: true
   text: 'word = input()  # the input word'
   learner_created: false
-- name: test.py
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/8086#comment
 status: Solved
 feedback:
