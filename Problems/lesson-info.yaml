@@ -49,3 +49,6 @@ content:
 - Counting unique
 - Memory test
 - Letters
+- Vowel count
+- FizzBuzz
+- snake_case
