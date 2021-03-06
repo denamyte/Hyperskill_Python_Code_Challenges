@@ -171,3 +171,5 @@ content:
 - Talents
 - A different merge
 - A non-recursive merge sort
+- The number of merge operations
+- Merging several sorted lists
