@@ -10,5 +10,8 @@ files:
                 return index
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8083#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 30 Mar 2021 12:10:30 UTC
 record: -1
