@@ -1,0 +1,43 @@
+<html>
+ <head></head>
+ <body>
+  <p><strong>Quick sort</strong> is an efficient comparison-based sorting algorithm: for a list of size $n$, its average time complexity is $O(n \log n)$. In the worst-case, the algorithm works in $O(n^2)$. However, being well implemented, it works mostly like on average and even outperforms other efficient sorting algorithms such as merge sort or heap sort. In this topic, we will consider how the algorithm can be implemented in Python.</p> 
+  <h2>Implementing the partition procedure</h2> 
+  <p>The main subroutine of the <strong>quick sort</strong> algorithm is the <strong>partition</strong> procedure. Given a list, it chooses one of its elements as a <strong>pivot </strong>and rearranges the list such that all elements smaller or equal to the pivot appear from the left of it, and the other elements are placed from the right of the pivot. After the procedure is completed, the pivot element appears to be in the position in which it should be placed in a sorted list.</p> 
+  <p>Below is one possible implementation of the procedure in Python:</p> 
+  <pre><code class="language-python">def partition(lst, start, end):
+    j = start
+
+    for i in range(start + 1, end + 1):
+        if lst[i] &lt;= lst[start]:
+            j += 1
+            lst[i], lst[j] = lst[j], lst[i]
+
+    lst[start], lst[j] = lst[j], lst[start]
+    return j</code></pre> 
+  <p>A function named <code class="language-python">partition</code> takes a list <code class="language-python">lst</code>, <code class="language-python">start</code> and <code class="language-python">end</code> positions (both inclusive) of a range where the partition should be performed. In this version, we consider the leftmost element of the range to be a pivot.</p> 
+  <p>First, we create a variable <code class="language-python">j</code> to store the rightmost position (inclusive) of a range, where all elements are smaller or equal to the pivot. Initially, the range includes only the pivot element itself. Next, we start iterating through the elements of the list using the <code class="language-python">for</code> loop. At each iteration, we compare the current element with the pivot and, in case the element is smaller or equal to it, we place this element to the end of the current range and increase its size by one. Finally, we place the pivot to the end of the range getting the desired order of elements.</p> 
+  <p>Below is an example of how the function works:</p> 
+  <pre><code class="language-python">lst = [4, 8, 3, 5, 1, 9, 2, 0, 2, 7]
+j = partition(lst, 0, len(lst) - 1)  # j = 5
+print(lst)  # [2, 3, 1, 2, 0, 4, 5, 8, 9, 7]</code></pre> 
+  <p>After the function is completed, the pivot element, which is $4$, is placed on the $5$th position. All elements from the left of the pivot are smaller or equal to it, the elements greater than the pivot are placed from the right of it.</p> 
+  <h2>Implementing quicksort</h2> 
+  <p>Using the partition procedure, the quick sort algorithm can be implemented as follows: first, we apply the partition for an input list. Then, having the pivot element in its proper position, we recursively apply the quick sort for the left and the right part of the resulting list (excluding the pivot element) finally getting the whole list sorted.</p> 
+  <p>Below is an implementation of the algorithm in Python:</p> 
+  <pre><code class="language-python">def quick_sort(lst, start, end):
+    if start &gt;= end:
+        return
+
+    j = partition(lst, start, end)
+    quick_sort(lst, start, j - 1)
+    quick_sort(lst, j + 1, end)</code></pre> 
+  <p>The <code class="language-python">quick_sort</code> function takes a list <code class="language-python">lst</code> and a range of the list to be sorted. Both the <code class="language-python">start</code> and the <code class="language-python">end</code> positions are inclusive.</p> 
+  <p>First, we check whether the range is either empty or contains only one element. If the condition holds, we quit the function, since there is nothing to sort. Otherwise, we perform the partition on the current range and then, recursively sort the left and the right part of the resulting list.</p> 
+  <p>Below is an example of how the function works:</p> 
+  <pre><code class="language-python">dates = [1994, 1998, 1993, 1995, 1991, 1999, 1992, 1990, 1992, 1997]
+quick_sort(dates, 0, len(dates) - 1)
+print(dates)  # [1990, 1991, 1992, 1992, 1993, 1994, 1995, 1997, 1998, 1999]</code></pre> 
+  <p>As expected, the elements of the input list are sorted in ascending order.</p>
+ </body>
+</html>
