@@ -1,0 +1,36 @@
+<html>
+ <head></head>
+ <body>
+  <p>One way to formulate the substring searching problem is the following: given two strings, <em>text</em> and <em>pattern</em>, we need to identify whether there is at least one occurrence of the <em>pattern</em> in the <em>text</em>. The simplest and most natural way to solve this problem is to sequentially consider all substrings of the <em>text</em> whose length is equal to the length of the <em>pattern</em> and compare them with the <em>pattern</em> itself. If at least in one case all corresponding symbols match, the <em>pattern</em> is found. If none of such attempts were successful, we should indicate that there is no <em>pattern</em> in the text. In this topic, we will consider how this simple algorithm can be implemented in Python.</p> 
+  <h2>Implementation in Python</h2> 
+  <p>Below is an implementation of the simplest substring searching algorithm in Python:</p> 
+  <pre><code class="language-python">def contains(text, pattern):
+    for i in range(len(text) - len(pattern) + 1):
+        found = True
+
+        for j in range(len(pattern)):
+            if text[i + j] != pattern[j]:
+                found = False
+                break
+
+        if found:
+            return True
+
+    return False</code></pre> 
+  <p>The function named <code class="language-python">contains</code> takes two strings, <code class="language-python">text</code> and <code class="language-python">pattern</code>, as input and returns <code class="language-python">True</code> if <code class="language-python">text</code> contains <code class="language-python">pattern</code> and <code class="language-python">False</code> otherwise.</p> 
+  <p>At each step of the outer <code class="language-python">for</code> loop, we create a variable named <code class="language-python">found</code> and initialize it with <code class="language-python">True</code>. Then, in the inner <code class="language-python">for</code> loop, we start comparing <code class="language-python">pattern</code> with the current substring of <code class="language-python">text</code>. If at least one of the corresponding symbols doesn't match, we set the variable <code class="language-python">found</code> to <code class="language-python">False</code> and break the inner loop. After the inner <code class="language-python">for</code> loop is done, we check the state of the <code class="language-python">found</code> variable. If it remains <code class="language-python">True</code>, this means that each symbol of <code class="language-python">pattern</code> matches the current substring. In this case, we return <code class="language-python">True</code> indicating that <code class="language-python">pattern</code> is found. Otherwise, we move to the next iteration and start considering the next substring. In case none of the comparisons were successful, that is, the outer <code class="language-python">for</code> loop finishes all iterations, the function returns <code class="language-python">False</code> indicating that <code class="language-python">pattern</code> is not found.</p> 
+  <h2>Usage examples</h2> 
+  <p>Here is how this algorithm can be used:</p> 
+  <pre><code class="language-python">contains("abacabad", "cab")  # True
+contains("abacabad", "abacabad")  # True
+contains("aba", "")  # True
+contains("abacabad", "hello")  # False</code></pre> 
+  <p>Note that the <code class="language-python">in</code> operator in Python also can be used for substring searching. It works similarly to the proposed function:</p> 
+  <pre><code class="language-python">"aba" in "abacabad"  # True
+"ada" in "abacabad"  # False</code></pre> 
+  <p>A built-in method for strings called <code class="language-python">find</code> also solves the same problem:</p> 
+  <pre><code class="language-python">"hello".find("el")  # 1
+"hello".find("aba")  # -1</code></pre> 
+  <p>Unlike the described <code class="language-python">contains</code> function and the <code class="language-python">in</code> operator, it returns the position of the first occurrence or $-1$ if no occurrences are found.</p>
+ </body>
+</html>
