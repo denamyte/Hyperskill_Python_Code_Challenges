@@ -7,5 +7,8 @@ files:
         pass
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/9553#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 14 Apr 2021 10:39:08 UTC
 record: -1
