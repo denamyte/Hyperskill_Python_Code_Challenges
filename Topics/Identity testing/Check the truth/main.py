@@ -1,2 +1,2 @@
-def check_values(first_value, second_value):
-    ...
+def check_values(*values):
+    return all(values)
