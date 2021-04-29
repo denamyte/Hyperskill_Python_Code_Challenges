@@ -1,2 +1,1 @@
-args = sys.argv
-print([int(i) for i in args[1:]])
+print(sum(map(int, sys.argv[1:])))
