@@ -1,2 +1,1 @@
-# the list "meals" is already defined
-# your code here
+print(sum(d['kcal'] for d in meals))
