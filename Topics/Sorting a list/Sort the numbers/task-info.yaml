@@ -8,5 +8,8 @@ files:
     # sort numbers
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/8089#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 30 May 2021 11:34:53 UTC
 record: -1
