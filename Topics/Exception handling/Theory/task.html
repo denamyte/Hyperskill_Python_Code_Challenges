@@ -23,7 +23,7 @@ File "&lt;input&gt;", line 1, in &lt;module&gt;
 File "C:/Users/User/.PyCharm2018.2/config/scratches/scratch_9.py", line 3, in &lt;module&gt;
     result = number_one / number_two
 ZeroDivisionError: division by zero</code></pre> 
-  <p>Again we encounter this annoying traceback that crashes our program completely! For preventing this, we need to use <strong>try-except statements</strong> in the place, which can be a possible source of errors. Here is the place where we make the division — the variable <code class="language-python">result</code>, so let's brace it with try-except blocks:</p> 
+  <p>Again we encounter this annoying traceback, and our program crashes completely! For preventing this, we need to use <strong>try-except statements</strong> in the place, which can be a possible source of errors. Here is the place where we make the division — the variable <code class="language-python">result</code>, so let's brace it with try-except blocks:</p> 
   <pre><code class="language-python">number_one = int(input("Please, enter the first number: "))
 number_two = int(input("Please, enter the second number: "))
 try:
