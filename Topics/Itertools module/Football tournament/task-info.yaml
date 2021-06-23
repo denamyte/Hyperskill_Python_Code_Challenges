@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: '# the variable ''teams'' is already defined'
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8493#comment
+status: Unchecked
+feedback:
+  message: |-
+    Connection to server was interrupted
+
+    timeout
+  time: Wed, 23 Jun 2021 22:04:23 UTC
+record: -1
