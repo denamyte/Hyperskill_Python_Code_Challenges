@@ -27,3 +27,5 @@ content:
 - Custom generators
 - Itertools module
 - Basic string methods
+- Sep and end arguments of print
+- Flush and file arguments of print
