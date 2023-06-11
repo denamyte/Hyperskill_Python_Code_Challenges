@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def submit_data(data, client, address):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8678#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 17 Jan 2023 23:32:23 UTC"
+record: -1

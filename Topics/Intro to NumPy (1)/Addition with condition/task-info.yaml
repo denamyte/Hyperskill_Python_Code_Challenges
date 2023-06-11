@@ -1,0 +1,17 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import numpy as np
+
+    def custom_sum(arg1, arg2):
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9679#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 30 Mar 2023 19:51:10 UTC"
+record: -1
+submission_language: python3

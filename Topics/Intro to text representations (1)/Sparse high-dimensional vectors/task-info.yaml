@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "Removal of unimportant high-frequency words, such as articles (\"a\", \"\
+    the\", etc.)"
+- text: Text normalization.
+- text: Extension of vocabulary.
+- text: Scoring frequencies instead of raw counts.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10444#comment
+status: Solved
+record: -1
+local_check: false

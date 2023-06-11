@@ -1,0 +1,12 @@
+custom_name: Tokenization
+content:
+- Theory
+- What is a token
+- The result of tokenization
+- Word tokens
+- Regular expressions and tokens
+- Tokenizing a particular sentence in the text
+- Sentence tokenization
+- TreebankWordTokenizer
+- The result of tokenization (1)
+- Creating a pattern for words

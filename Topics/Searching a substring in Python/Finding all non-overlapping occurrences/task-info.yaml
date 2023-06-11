@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def find_no_overlaps(text, pattern):
+        pass
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7575#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 23 Sep 2021 13:00:30 UTC"
+record: -1

@@ -1,0 +1,9 @@
+custom_name: Intro to text representations
+content:
+- Sparse high-dimensional vectors
+- Appearance
+- Bag-of-words model
+- Binary matrix
+- Theory
+- Contextualized models
+- Word embeddings

@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It works in any case.
+- text: If you launch the shell from the command line interpreter.
+- text: If you run a program in your IDLE.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15101#comment
+status: Solved
+record: -1
+custom_name: Is it really so?
+local_check: false

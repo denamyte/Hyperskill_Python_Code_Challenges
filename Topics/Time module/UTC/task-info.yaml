@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>daylight</code>
+- text: <code>time()</code>
+- text: <code>ctime()</code>
+- text: <code>tzname</code>
+- text: <code>gmtime()</code>
+- text: <code>timezone</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/22001#comment
+status: Solved
+record: -1
+local_check: false

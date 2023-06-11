@@ -1,0 +1,86 @@
+content:
+- Methods
+- Else statement
+- Slicing
+- Recursion in Python
+- Identity testing
+- Quick sort in Python
+- Objects in Python
+- Class vs instance
+- Queue in Python
+- Default arguments
+- Args
+- Searching a substring in Python
+- Indexes
+- How to read the documentation
+- Conversion to boolean
+- Command line arguments
+- Math magic methods
+- Lambda functions
+- Iterators
+- Sorting a list
+- Dictionary methods
+- Operations with dictionary
+- Exceptions
+- Built-in exceptions
+- Exception handling
+- Custom generators
+- Itertools module
+- Basic string methods
+- Sep and end arguments of print
+- Flush and file arguments of print
+- Binary search in Python
+- Map and filter
+- Linear search in Python
+- While loop
+- Stack in Python
+- Search in a string
+- Avoiding bad comments
+- Selection sort in Python
+- Function decorators
+- Inheritance
+- Method overriding
+- Algorithms in Python
+- Multiple inheritance
+- Abstract classes
+- Decorators in OOP
+- User-defined exceptions
+- Functional decomposition
+- Declaring a function
+- Kwargs
+- Function annotations
+- Hashable
+- Operations with tuple
+- Python unpacking operators (* and **)
+- Regexps in Python
+- Escaping in regexps
+- Regexp sets and ranges
+- Binary search
+- Copy of an object
+- The string module
+- Parallel iteration
+- Assert statement
+- Testing user input
+- Time module
+- Glob module
+- Elif statement
+- Methods and attributes
+- Regexp functions in Python (1)
+- Experiments with Python shell
+- Datetime module (1)
+- Django template language
+- Template filters
+- Logging (1)
+- Template tags
+- Operations with an array (1)
+- Intro to NumPy (1)
+- Shorthands (1)
+- Regexp quantifiers (1)
+- Processing requests
+- How to read a traceback (1)
+- Series
+- DataFrame
+- Intro to text representations (1)
+- Accessing data in a DataFrame
+- Tokenization (1)
+- Overview of NLTK (1)

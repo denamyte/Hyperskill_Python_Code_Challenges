@@ -1,0 +1,22 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    def has_prefix(word, prefix):
+        pass
+
+
+    prefix = input()
+    words = input().split()
+
+    for word in words:
+        if has_prefix(word, prefix):
+            print(word)
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7942#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 08 Apr 2021 21:43:43 UTC"
+record: -1

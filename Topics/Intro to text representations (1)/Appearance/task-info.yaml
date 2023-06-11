@@ -1,0 +1,23 @@
+type: matching
+captions:
+- Bag-of-words
+- TF-IDF
+- Word embedding
+options:
+- "[0, 0, 0.25, 0.20, 0.55, 0, 0]"
+- "[-0.347, 0.435, 1.992 , -0.042, -0.643]"
+- "[0, 1, 1, 0, 0, 0, 1]"
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10447#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2

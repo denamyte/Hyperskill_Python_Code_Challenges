@@ -1,0 +1,16 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    a = input()
+    b = input()
+    # run the membership test below
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8832#comment
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8832#comment">JetBrains
+    Academy</a></html>
+  time: "Sun, 15 Nov 2020 19:55:11 UTC"
+record: -1

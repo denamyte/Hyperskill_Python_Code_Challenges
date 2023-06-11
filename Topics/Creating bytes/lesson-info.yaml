@@ -1,0 +1,7 @@
+content:
+- Theory
+- Single integer conversion
+- Byteorder
+- Encode() and bytes()
+- Bytes slices
+- Zero bytes
