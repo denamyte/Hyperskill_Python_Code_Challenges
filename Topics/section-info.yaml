@@ -84,3 +84,7 @@ content:
 - Accessing data in a DataFrame
 - Tokenization (1)
 - Overview of NLTK (1)
+- POS tagging (1)
+- Conditional selection
+- Load module
+- Sorting Data in Pandas

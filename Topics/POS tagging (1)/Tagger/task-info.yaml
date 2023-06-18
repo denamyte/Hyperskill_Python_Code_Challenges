@@ -1,0 +1,20 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    import nltk
+
+
+    # the line below reads a sentence from the input and converts it into a list
+    sent = input().split()
+
+    # your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10439#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 14 Jun 2023 20:18:47 UTC"
+record: -1
+submission_language: python3

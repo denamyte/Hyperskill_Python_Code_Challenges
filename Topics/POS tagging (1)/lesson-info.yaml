@@ -1,0 +1,9 @@
+custom_name: POS tagging
+content:
+- Ambiguous word
+- Tagger
+- Tricky POS-tag
+- Get help
+- POS statistics
+- Theory
+- Xpos in Stanza

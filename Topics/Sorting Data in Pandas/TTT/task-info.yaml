@@ -1,0 +1,15 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: "import pandas as pd\n\nt_t_t = pd.DataFrame({\n    \"tick\": [\"X\", \"O\"\
+    , 'O'], \n    \"tack\": [\"O\", \"O\", 'X'], \n    \"toe\": [\"O\", \"X\", 'O'],\n\
+    }, index=['tick', 'tack', 'toe'])\n\n# your code here\nprint(...)"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15187#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 18 Jun 2023 22:00:58 UTC"
+record: -1
+submission_language: python3
